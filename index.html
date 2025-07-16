@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#certification">Certifications</a>
+            </li>
+            <li>
+                <a href="#projects">Personal Projects</a>
+            </li>
+            <li>
+                <a href="#publications">Publications</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <div class="profile-pic-container">
+                <img src="images/Nirmal_Sq.png" alt="Nirmal TM" class="profile-pic">
+            </div>
+            <h1>Nirmal T M</h1>
+            <h2>Embedded Systems & RTOS Specialist | C/C++ Developer | Software Architect</h2>
+            <a href="documents/Resume_NirmalTM.pdf" target="_blank" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p class="justify-text">
+                        I’m an Embedded Systems Engineer with a strong foundation in C/C++ programming, real-time operating systems (RTOS), and low-level software development. I have hands-on experience building reliable, efficient, and scalable solutions across various embedded platforms.
+                        Over the years, I've contributed to projects involving system architecture design, driver development, protocol implementation (UART, SPI, CAN), diagnostics (UDS/OBD), AUTOSAR-based software stacks, and functional safety–oriented development (ISO 26262). I enjoy working close to the hardware, solving complex problems, and continuously learning about modern embedded technologies.
+                        I'm always open to exciting challenges in embedded, systems-level, or performance-critical software domains — whether in automotive, industrial, or emerging tech fields.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="October 2023 – September 2025">
+                <h3>HELLA Aglaia Mobile Vision GmbH</h3>
+                <h4>Software Architect</h4>
+                <p class="justify-text-exp">
+                    At Hella Aglaia, I led the architectural development of scalable embedded platforms and played a key role in standardizing core software components across projects. I guided a team of 10+ engineers in designing a generic hardware abstraction layer for microcontrollers like Renesas RL78, enabling sensor and actuator reuse across multiple product lines.
+                </p>
+                <p class="justify-text-exp">
+                    I was responsible for standardizing Diagnostic Trouble Codes (DTC), resulting in a unified system and the development of the DTCEV middleware package. Additionally, I contributed to the Ice Detection Sensor application, ensuring MISRA compliance and delivering a robust implementation in a non-AUTOSAR environment. My role involved architectural design, technical analysis, and proof-of-concept (PoC) development to drive innovation and consistency across platforms.
+                </p>
+            </div>
+
+            <div data-date="June 2022 – September 2023">
+                <h3>EDAG Engineering GmbH</h3>
+                <h4>Senior Software Engineer</h4>
+                <p class="justify-text-exp">
+                    At EDAG Engineering GmbH, I was involved in the development and integration of application software for a DC-DC Converter ECU used in Audi's powertrain systems. My responsibilities included implementing change requests, updating system architecture, and ensuring code quality through strict adherence to MISRA standards.
+                </p>
+                <p class="justify-text-exp">
+                    Working within the AUTOSAR 4.2.1 framework, I performed in-depth analysis, development, and testing of software components, contributing to high system reliability and compliance with Automotive SPICE (ASPICE) processes. I regularly used industry-standard tools like Vector CANoe, DaVinci Developer/Configurator, IBM DOORS, and IBM Rhapsody to support efficient design, integration, and validation workflows in an agile (Scrum) environment.
+                </p>
+            </div>
+
+            <div data-date="January 2017 – March 2022">
+                <h3>Bosch Global Software Technologies</h3>
+                <h4>Senior Software Engineer</h4>
+                <p class="justify-text-exp">
+                    At Bosch Global Software Technologies, I worked on the development of diagnostic layers and Powertrain ECU configurations for BMW engine systems across multiple vehicle series. I was responsible for designing diagnostic tester jobs, managing signal configurations, and integrating diagnostic workflows using Diagnostic Extract Templates (Dext). Additionally, I led the application layer development for automotive instrument clusters, delivering features like speedometers, trip reset buttons, and diagnostics configuration.
+                </p>
+                <p class="justify-text-exp">
+                    A key achievement was developing a GPS-based speedometer from scratch, enhancing accuracy and real-time speed measurement. I also automated code generation processes using Perl scripts to improve team productivity and coordinated international projects.
+                </p>
+                <p class="justify-text-exp">
+                    During this role, I was deputed to Bosch Engineering GmbH in Stuttgart, collaborating closely with cross-functional teams to ensure seamless integration and testing. The work utilized tools such as Vector CANoe, DaVinci, Eclipse, INCA, and IBM Rational Team Concert within Automotive SPICE and Scrum frameworks.
+                </p>
+            </div>
+
+            <div data-date="August 2016 – December 2016">
+                <h3>Tata Elxsi</h3>
+                <h4>Senior Engineer</h4>
+                <p class="justify-text-exp">
+                    At Tata Elxsi, I played a key role in migrating the Diagnostic Communication Manager (DCM) stack from AUTOSAR 3.x to 4.2.1 for Tata Motors, ensuring full compatibility with updated specifications. I enhanced the DCM stack by adding critical services such as ReadDataByDID (0x22), WriteDataByDID (0x2E), IOControlByDID (0x2F), and ReadDataByPeriodicDID (0x2A).
+                </p>
+                <p class="justify-text-exp">
+                    My responsibilities also included developer testing to validate these new services for robustness and reliability. To support service integration, I modified eZyconfig and Velocity (VM) scripts within the AUTOSAR environment. Development and testing were performed using tools like Eclipse Mars, AUTOSAR 4.2.1, eZyconfig, and Cygwin.
+                </p>
+            </div>
+
+            <div data-date="June 2015 – July 2016">
+                <h3>Acsia Technologies</h3>
+                <h4>Engineer</h4>
+                <p class="justify-text-exp">
+                    At Acsia Technologies, a startup environment, I contributed to building the GENIVI 7.0.3 platform on the iMX6 SABRE AI board, enabling advanced Automotive HMI functionalities including climate control and media playback. I developed and integrated HMI interfaces using Qt 5.5, ensuring seamless interaction with the GENIVI middleware stack.
+                </p>
+                <p class="justify-text-exp">
+                    To guarantee quality, I designed and implemented an Automated Non-Invasive Testing Suite that validated HMI interface functionality, design consistency, and performance. Testing involved the use of cameras, CAN interfaces, and touch simulation devices to verify operational accuracy and display responsiveness. Development and testing leveraged tools such as Qt QML, OpenCV, Linaro Automated Validation Architecture (LAVA), and Linux-based environments.
+                </p>
+            </div>
+
+            <div data-date="October 2014 – April 2015">
+                <h3>Quest Global</h3>
+                <h4>Project Trainee</h4>
+                <p class="justify-text-exp">
+                    During my master’s thesis at Quest Global, I developed and optimized the Connected Component Labeling (CCL) algorithm using the Light Speed Labeling technique on a Raspberry Pi platform. The focus was on achieving real-time performance while optimizing memory utilization and processing efficiency for low-end embedded systems.
+                </p>
+                <p class="justify-text-exp">
+                    Through extensive analysis and iterative refinement, I enhanced the algorithm’s resource efficiency without compromising accuracy, enabling effective execution on constrained hardware. This project deepened my skills in computer vision and embedded system optimization.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of Calicut</h3>
+            <span class="education-date">Sept 2016 - Sept 2017</span>
+            <h4>Master of Technology in Embedded Systems</h4>
+            <p>
+                Completed with First Class with Distinction, and actively participated as a member of IEEE. Thesis focused on optimizing connected component labeling for image processing on Raspberry Pi, emphasizing real-time performance and memory efficiency. Also completed industrial training at Doordarshan Kendra, Thrissur, gaining hands-on experience with embedded systems in broadcasting applications.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>University of Calicut</h3>
+            <span class="education-date">Sept 2016 - Sept 2017</span>
+            <h4>Bachelor of Technology in Electronics and Communication</h4>
+            <p>
+                Graduated with First Class with Honours. Actively involved in IEEE and participated in projects supported by KSCSTE (Kerala State Council for Science, Technology & Environment).
+            </p>
+            <p>
+                Academic projects included:
+            </p>
+            <ul>
+                <li>
+                    Remote Sensing Robotic System: Developed a wireless-controlled robot capable of environmental data acquisition and remote navigatio
+                </li>
+                <li>
+                    Intelligent Wheelchair with Robotic Arm: Designed a voice-controlled, sensor-assisted wheelchair integrated with a robotic arm for assistive mobility and object handling.
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="certification" class="background-alt">
+        <h2 class="heading">Certifications</h2>
+        <div class="container">
+            <div class="row">
+                <div class="certification shadow-large">
+                    <div class="certification-image">
+                        <img src="images/Simplilearn.jpg" />
+                    </div>
+                    <!-- End .certification-image -->
+                    <div class="certification-info">
+                        <h3>Agile Scrum Foundation</h3>
+                        <p>
+                            Completed foundational training in Agile methodologies and Scrum practices, covering key concepts like sprint planning, roles, ceremonies, and product backlog management.
+                        </p>
+                        <a href="https://certificates.simplicdn.net/share/1193112.pdf" target="_blank">View Certificate</a>
+                    </div>
+                    <!-- End .certification-info -->
+                </div>
+                <!-- End .certification -->
+
+                <div class="certification shadow-large">
+                    <div class="certification-image">
+                        <img src="images/Simplilearn.jpg" />
+                    </div>
+                    <!-- End .certification-image -->
+                    <div class="certification-info">
+                        <h3>DevOps Practitioner</h3>
+                        <p>
+                            Completed comprehensive training on DevOps principles and workflows with hands-on experience in tools and practices, including CI/CD, automation, and deployment pipelines. The program included practical labs using AWS for real-world cloud-based DevOps scenarios
+                        </p>
+                        <a href="https://certificates.simplicdn.net/share/1148826.pdf" target="_blank">View Certificate</a>
+                    </div>
+                    <!-- End .certification-info -->
+                </div>
+                <!-- End .certification -->
+
+                <div class="certification shadow-large">
+                    <div class="certification-image">
+                        <img src="images/Istqb.jpg" />
+                    </div>
+                    <!-- End .certification-image -->
+                    <div class="certification-info">
+                        <h3>Foundation Level Certificate in Software Testing</h3>
+                        <p>
+                            Certified in the fundamentals of software testing, including test design techniques, test management, lifecycle models, and quality assurance principles. This certification is issued by the International Software Testing Qualifications Board (ISTQB), a globally recognized authority in software testing standards.
+                        </p>
+                        <a href="documents/ISTQB.pdf" target="_blank">View Certificate</a>
+                    </div>
+                    <!-- End .certification-info -->
+                </div>
+                <!-- End .certification -->
+            </div>
+        </div>
+    </div>
+    <!-- End #Certification -->
+
+
+    <section id="projects" >
+    <div class="container">
+        <div class="row">
+        <h2 class="heading">Personal Projects</h2>
+        </div>
+    </div>
+
+    <!-- Scrollable project container -->
+    <div class="projects-scroll-container">
+        <!-- Left Scroll Button -->
+        <button class="scroll-btn left" onclick="scrollProjects(-1)">&#8592;</button>
+
+        <div class="projects-wrapper" id="projectSlider">
+        <!--  Project 1 -->
+        <div class="project-card">
+            <img src="images/tms570ls12c_crc32.jpg" alt="UART-Based CRC32 on TMS570LS12">
+            <h4>UART-Based CRC32 on TMS570LS12</h4>
+            <p class="justify-text">
+                Implemented a CRC32 calculation application on the TMS570LS1227 microcontroller. Bytes are received over UART, and after a 500 ms idle timeout, the CRC32 (Ethernet polynomial) is computed and sent back. This project highlights embedded C, UART communication, and real-time data processing on a safety MCU.
+            </p>
+            <a href="https://github.com/TMNirmal/tms570ls12hdk-uart-crc32" target="_blank">View on GitHub</a>
+        </div>
+
+        <!--  Project 2 --
+        <div class="project-card">
+            <img src="images/Istqb.jpg" alt="Project Two">
+            <h4>Embedded Motor Driver</h4>
+            <p>A device driver for motor controller based on Renesas RL78, supports PWM, current feedback & direction control.</p>
+            <a href="https://github.com/nirmal/motor-driver" target="_blank">View on GitHub</a>
+        </div>
+        -->
+
+
+        <!--  Add more projects like this -->
+        </div>
+
+        <!-- Right Scroll Button -->
+        <button class="scroll-btn right" onclick="scrollProjects(1)">&#8594;</button>
+    </div>
+    </section>
+
+    <!-- End #Project Section -->
+
+
+    <section id="publications" class="background-alt">
+    <div class="container">
+        
+        <!-- ✔ Centered heading -->
+        <div class="row justify-content-center">
+        <div class="col-12 text-center">
+            <h2 class="heading">Publications</h2>
+        </div>
+        </div>
+        
+        <!-- ✔ Grid layout -->
+        <div class="row">
+
+        <!-- Publication 1 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex">
+            <div class="publication-card">
+            <img src="images/journal_arpn.jpg" alt="Publication 1">
+            <div class="publication-info">
+                <h3>ARPN Journal of Engineering and Applied Sciences, Sep 2015</h3>
+                <p>Presented an optimized implementation of connected component labeling (CCL) using the Light Speed algorithm on Raspberry Pi, focusing on memory efficiency and real-time performance.</p>
+                <a href="https://www.arpnjournals.com/jeas/research_papers/rp_2015/jeas_0915_2619.pdf" target="_blank">View Publication</a>
+            </div>
+            </div>
+        </div>
+
+        <!-- Publication 2 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex">
+            <div class="publication-card">
+            <img src="images/journal_ijaer.jpg" alt="Publication 2">
+            <div class="publication-info">
+                <h3>International Journal of Applied Engineering Research (IJAER), May 2015</h3>
+                <p>Explored the implementation and optimization of core computer vision algorithms on Raspberry Pi, targeting efficient performance on low-power embedded platforms.</p>
+                <a href="documents/ijaerv10n20spl_135.pdf" target="_blank">View Publication</a>
+            </div>
+            </div>
+        </div>
+
+        <!-- Publication 3 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex">
+            <div class="publication-card">
+            <img src="images/Journal_Isco.jpg" alt="Publication 3">
+            <div class="publication-info">
+                <h3>Karpagam Journal of Engineering Research (KJER), Special Issue on IEEE Sponsored ISCO’15 & IEEE Sponsored 9th International Conference on Intelligent Systems and Control (ISCO), Jan 2015</h3>
+                <p>Proposed and implemented a specialized multicore reconfigurable processor architecture to accelerate image processing tasks, showcasing enhanced parallelism and performance. Work was presented at ISCO 2015 and also featured in the KJER special issue.</p>
+                <a href="documents/Isco-2015.pdf" target="_blank">View Publication</a>
+            </div>
+            </div>
+        </div>
+
+        <!-- Publication 4 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex">
+            <div class="publication-card">
+            <img src="images/journal_jesit.jpg" alt="Publication 4">
+            <div class="publication-info">
+                <h3>Journal of Electrical Systems and Information Technology (Elsevier), Mar 2014</h3>
+                <p>Implemented image fusion and de-noising using Discrete Wavelet Transform (DWT) on FPGA, enabling real-time performance in signal processing applications.</p>
+                <a href="https://pdf.sciencedirectassets.com/305924/1-s2.0-S2314717214X00024/1-s2.0-S2314717214000075/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLWVhc3QtMSJHMEUCICVDAg5f8C8hrmZ7Wkey7%2BZV77fa%2FCEte7VqFjXcT67VAiEArKJ%2FFmYSY8wO4MFdO2eJR%2B%2FOJRcMHJ8EXEfS4NUZFLEqswUIYRAFGgwwNTkwMDM1NDY4NjUiDPZCX41L%2FKXEviSNCCqQBX7zKmn7nQ16Y1TjXb%2Fl%2BPujcvGhJkWBZQptPq6Ozdtnhxebl7WR0r8zZm%2FM8igKhYbMV9Nv2dC5lDtnYS%2BJUNLwD78F0%2FwnI6TokcyM1IGMK8viSX1rf%2FUjyGuYsgarLG4pcOH554nLfriR7%2B%2Fqv%2BRlrtMImCDMXOYH349BJ0pANPW00FKTBM8j6t7Hpm0BFwLhNAH%2FTrEUNwd64Tw5m%2BR8Fjwc6PsKdVgmSAm%2FWyRqTxvcBc0eggy7MiEJe7%2Fz%2FKs9bSYd2sQ%2BNcQBfg7%2FTby3bYxVBWNqNJ43ggRCdcCmT7FbqXAHbMyVq0CNq6AUmlkRjeoy8ra81L6cjjLAeDE8tksWoCe5fx%2FHC56omnNywhS1b5TV%2BACZK%2F5IXiBgMX1gLbP5GKPUKb2Xyh3bW8IDCJ%2Fdra2C5Ae8DqB%2BBQzUjWp1uf03O6cYwPw8YCujYRsyVCCZLzYP1mB6ZMi85tqIPpnEWMjSo7YkUwwBIIuv9amasrdyle7y1oWP727wV%2Bz6gUHVnI0qKaY9X7I57uBAPX8WSCUHjg7o97GZcHffYeXeaYWMelTR5cptLyTOnso71h6Fmb2CmF%2BuOvg4144qgYLKbVZXU4emgp5cz4RW3TjZB35Cm59n1wpZStZvWomNUA%2BlC%2BrGjP%2F2oG1SxxUSVKHYtObH3uuHuCctA0CrtXtmYoOsYURpl38t1hsYx7WTNvyMiaIFQ2bQmwiijaaef1aUx5PxW6EhbTg7%2Fax5xiZzEkc4wvPAYo%2FgQ%2FrSOH9%2FxTNuWsYUp%2FbC0kHZSS9kJr480RfKyX3Fg%2FOFCld7VItQPkZT%2BZm7drcMRND%2BwUXBgMxKiqXCD5i1Vwy7XczMhxMyCWxYEMDIOcNGF83YMK6J38MGOrEBj6Yo2J0LHM3i0kGr5LFQW8RRbjbj0FCl6ju%2B%2Fm2iHXH9BHMDcllhvSilPM%2FemSM5AKGxLuAarpS%2FFVr6%2FOTep4MIb3nIrH35Z1MdsAzkA%2FNbIE3NTOIWLCqDKvGkLIYmT9fOXG7mo7UIDmDGuV4EQMGORDeSswEbqvpPkDGZkuKzJB2HmSILaKQ6pxxfZA7mt6VkQWdmTrQzopuiftA%2BEBtEhX5eWHoOAQOJNniQw7D5&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250716T165306Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYRUPTD46E%2F20250716%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=eed356596b7e5743d8b7ab42fabbe464cff5c2a7c326bebd89172d50a5839630&hash=0ea124c1a0629e414b255be8640a514543f223ab78496391e8c356cf8d28df94&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2314717214000075&tid=spdf-a59a99fa-d843-4e14-bf32-116427c842b4&sid=755e11eb5b19a543b489ad5942d96457f2c0gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1e075c5655515f575a00&rr=9603038bed8bce9d&cc=de" target="_blank">View Publication</a>
+            </div>
+            </div>
+        </div>
+
+        <!-- Publication 5 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+            <div class="publication-card">
+            <img src="images/journal_ijeer.jpg" alt="Publication 5">
+            <div class="publication-info">
+                <h3>International Journal of Electrical and Electronics Research (IJEER), Jun 2014</h3>
+                <p>Developed a smart wheelchair system integrating assistive controls and safety features to support individuals with physical and cognitive disabilities, enhancing mobility and independence.</p>
+                <a href="file:///C:/Users/nirma/Downloads/Wheelchair%20for%20Physically%20and%20Mentally%20Disabled-316.pdf" target="_blank">View Publication</a>
+            </div>
+            </div>
+        </div>
+
+        <!-- Publication 6 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+            <div class="publication-card">
+            <img src="images/journal_ijecct.jpg" alt="Publication 6">
+            <div class="publication-info">
+                <h3>International Journal of Electronics Communication and Computer Technology (IJECCT), Jul 2014</h3>
+                <p>Designed a versatile robotic system capable of assisting patients in healthcare settings and performing surveillance or support tasks in military applications.</p>
+                <a href="documents/676-680CRP0404M34.pdf" target="_blank">View Publication</a>
+            </div>
+            </div>
+        </div>
+
+        <!-- Publication 7 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+            <div class="publication-card">
+            <img src="images/journal_iciiecs.jpg" alt="Publication 7">
+            <div class="publication-info">
+                <h3>IEEE Sponsored 2nd International Conference on Innovations in Information, Embedded and Communication Systems (ICIIECS), May 2015</h3>
+                <p>Optimized key computer vision algorithms for deployment on Raspberry Pi, achieving efficient real-time processing suitable for low-power embedded systems.</p>
+                <a href="documents/Iciiecs.pdf" target="_blank">View Publication</a>
+            </div>
+            </div>
+        </div>
+
+        <!-- Publication 8 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex">
+            <div class="publication-card">
+            <img src="images/journal_exopp.jpg" alt="Publication 8">
+            <div class="publication-info">
+                <h3>EXOPP – Exploration of Power Play, Sep 2011</h3>
+                <p>Presented a detailed case study on the utilization and impact of various renewable energy sources, highlighting their potential in sustainable power generation and future energy strategies.</p>
+                <a href="documents/EXOPP.pdf" target="_blank">View Publication</a>
+            </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- End Publication Section -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Software Architecture</li>
+            <li>Systems Engineering</li>
+            <li>Team Leadership</li>
+            <li>Embedded C/C++</li>
+            <li>Python</li>
+            <li>Perl</li>
+            <li>Qt/QML</li>
+            <li>OpenCV</li>
+            <li>Documentation</li>
+            <li>AUTOSAR </li>
+            <li>MISRA</li>
+            <li>ASPICE</li>
+            <li>GENIVI</li>
+            <li>Vector CANoe</li>
+            <li>DaVinci Developer</li>
+            <li>DaVinci Configurator</li>
+            <li>Rhapsody</li>
+            <li>Scrum </li>
+            <li>RTOS</li>
+            <li>UDS</li>
+            <li>ISO-14229</li>
+            <li>ISO-26262</li>
+            <li>Perl</li>
+            <li>Test Driven Development</li>
+            <li>Velocity</li>
+            <li>eZyconfig</li>
+            <li>Automated Testing</li>
+            <li>Automated Code Generation</li>
+            <li>LAVA</li>
+            <li>Embedded Linux</li>
+            <li>Raspberry Pi</li>
+            <li>Arduino</li>
+            <li>ESP32</li>
+            <li>TMS570 Safty</li>
+            <li>Optimization</li>
+            <li>Automation</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/mpwlzbdd">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2025</span> Nirmal Thyvalappil Muraleedharan
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/TMNirmal" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <!--<li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>-->
+                        <li>
+                            <a href="https://www.linkedin.com/in/nirmaltm/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/Nirmal.T.M" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <!--<li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+
+    <!-- Scroll Feature -->
+    <script>
+    function scrollProjects(direction) {
+        const container = document.getElementById('projectSlider');
+        const scrollAmount = 300; // Adjust scroll distance
+        container.scrollBy({ 
+        left: direction * scrollAmount, 
+        behavior: 'smooth' 
+        });
+    }
+    </script>
+    <!-- End Scroll -->
+</body>
+
+</html>
